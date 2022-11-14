@@ -33,3 +33,21 @@ For example, https://public.tableau.com/app/profile/joslininsight/viz/AONLLongit
 -- Refer AI_ASSIGNMENT.twd for Tableau workbook
 
 #### Sprint 2:
+
+A) Design a machine learning model to make accurate predictions for product sales for next 10 days in advance (the data set includes daily unit sales per product) and compare the performance of different machine learning algorithms.
+
+  Extra credit: Perform down-casting (shrink dataset size) https://pypi.org/project/pandas-downcast/
+
+B) Feature engineering: create two new features using the information provided in Table 1. 
+  a) weather data
+  b) median income
+
+You need to consider the weather information of each store location in particular state and use it as a feature to build the forecasting model.
+
+C) Use the below machine learning algorithms to model n-step ahead forecasting (n = 10).
+  Note: First create model without using any external features, and then create model with the external features. 
+
+  Begin with ARIMA and compare the RMSE values for each category. 
+  Long short-term memory (LSTM) – Perform hyper-parameter to improve the model. 
+  Plot the relevant graphs and tabulate the performance metrics of each model. 
+
